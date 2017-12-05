@@ -1,3 +1,5 @@
+#!groovy
+
 node ("maven") {
   
    stage("QA TESTing") {
