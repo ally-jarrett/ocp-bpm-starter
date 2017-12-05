@@ -1,0 +1,60 @@
+node ("maven") {
+  
+   stage("QA TESTing") {
+
+      echo '-------------'
+      echo ' QA TEST TBD'
+      echo '-------------'
+
+      dir('app') {
+
+      }  
+   }
+
+   stage("INT TESTing ") {
+
+
+      echo '-------------'
+      echo ' RUN INT TEST '
+      echo '-------------'
+
+      dir('app') {
+
+      }  
+   }
+
+   stage("RUN PERF TESTting ") {
+
+      echo '-------------'
+      echo ' RUN PERF TEST '
+      echo '-------------'
+
+      dir('app') {
+
+      }  
+   }
+
+   stage("RUN UAT TESTting ") {
+
+      echo '-------------'
+      echo ' RUN UAT TEST '
+      echo '-------------'
+
+      dir('app') {
+
+      }  
+   }
+
+   stage("DEPLOY in PROD") {
+
+      echo '-------------'
+      echo ' Copy image in PROD Cluster Registry'
+      echo ' Copy image in PROD Namespace'
+      echo '-------------'
+
+      dir('app') {
+
+      }  
+   }
+}
+
